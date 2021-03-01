@@ -1,4 +1,4 @@
-package com.kongyu.mybatisUtils;
+package com.kongyu.utils;
 
 import java.io.IOException;
 import java.io.InputStream;

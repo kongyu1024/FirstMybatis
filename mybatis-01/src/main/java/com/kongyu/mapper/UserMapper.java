@@ -10,4 +10,11 @@ import com.kongyu.pojo.User;
  */
 public interface UserMapper {
     List<User> getUserList();
+
+    User getUserById(int id);
+
+    void addUser(User user);
+
+    int updateUser(User user);
+
 }
