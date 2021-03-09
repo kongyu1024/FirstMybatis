@@ -22,7 +22,6 @@ public class MybatisUtils {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        InputStream inputStream;
         sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);
     }
 
